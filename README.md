@@ -47,8 +47,11 @@ issued from them. Their tags have been deleted and their files removed by an
 ordinary commit; both remain visible in this history, and their Rekor entries
 remain permanently in the public log, by design.
 
-Two such rehearsals happened, both on 30 July 2026:
+Three such rehearsals have happened. Two on 30 July 2026:
 `scratch-test-20260730-1651` (commitment stage only) and
-`scratch-full-20260730` (a complete end-to-end run).
+`scratch-full-20260730` (a complete end-to-end run). One on 2 August 2026:
+`scratch-verifierfix-20260802`, a complete end-to-end run made to re-check the
+published verifier after it was hardened — it is the run that proved an honest
+publication still passes.
 
 Real runs are identified by an ISO week id, for example `2026-W31`.
